@@ -20,9 +20,10 @@ void printVec(vector<int> &vec)
     if (!vec.empty())
     {
         auto tmp = vec.back();
+        cout << tmp << " ";
         vec.pop_back();
         printVec(vec);
-        cout << tmp << " ";
+  
     }
 }
 
