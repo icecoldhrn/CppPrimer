@@ -20,7 +20,7 @@ void printVec(vector<int> &vec)
     if (!vec.empty())
     {
         auto tmp = vec.back();
-        cout << tmp << " ";
+        cout << tmp << " \n";
         vec.pop_back();
         printVec(vec);
   
